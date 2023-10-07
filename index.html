@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 10 Coding Project</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">USong</a>
+          <!-- bootstrap navbar toggler button (for small screens)-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+    </nav>
+    <!-- Header Section with Background image -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col bg-headphone pt-5 fw-bold fs-1">
+                We Organize, You Listen
+            </div>
+        </div>
+    </div>
+    <!-- Create a New Playlist Card -->
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-playlist-name">Playlist Name</label>
+                        <input type="text" class="form-control" id="new-playlist-name">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button id="new-playlist" class="btn btn-dark form-control">Create Playlist</button>
+            </div>
+        </div>
+    </div><br>
+    <!-- Playlists Section -->
+    <div id="playlists"></div>
+    <!-- Footer Section -->
+    <footer class="py-3 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-m-2 text-light">
+                    Copyright 2023
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+</body>
+</html>

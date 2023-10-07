@@ -1,0 +1,6 @@
+.bg-headphone {
+    background-image: url(headphone.jpg);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+}
